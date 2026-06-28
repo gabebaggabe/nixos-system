@@ -25,4 +25,5 @@
     alias nixrebuild="sudo nixos-rebuild switch"
     alias sudovim="sudo -E vim"
     alias nixhypr="cd /etc/nixos/hyprland"
-    alias nixconf="sudovim /etc/nixos/configuration.nix"                                                     
+    alias nixconf="sudovim /etc/nixos/configuration.nix"
+    alias ff="fastfetch"
