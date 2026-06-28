@@ -1,0 +1,26 @@
+# sudovim ~/.vimrc
+    set number
+    set relativenumber
+    syntax on
+    filetype on
+    filetype indent on
+    set autoindent
+    set smartindent
+    set tabstop=2
+    set shiftwidth=2
+    set expandtab
+    inoremap {<CR> {<CR>};<Esc>O
+    inoremap (<CR> (<CR>);<Esc>O<Tab>
+    inoremap [<CR> [<CR>];<Esc>O<Tab>
+
+
+ # sudovim ~/.config/fish/config.fish
+     if status is-interactive
+    # Commands to run in interactive sessions can go here
+    end
+    
+    alias nixmod="cd /etc/nixos/modules"
+    alias nixrebuild="sudo nixos-rebuild switch"
+    alias sudovim="sudo -E vim"
+    alias nixhypr="cd /etc/nixos/hyprland"
+    alias nixconf="sudovim /etc/nixos/configuration.nix"                                                     
