@@ -26,4 +26,5 @@
     alias sudovim="sudo -E vim"
     alias nixhypr="cd /etc/nixos/hyprland"
     alias nixconf="sudovim /etc/nixos/configuration.nix"
-    alias ff="fastfetch"
+    alias ff="fastfetch"   
+    alias hyprconf="sudovim /home/felix/.config/hypr/hyprland.lua"
