@@ -13,6 +13,8 @@
     inoremap {<CR> {<CR>};<Esc>O
     inoremap (<CR> (<CR>);<Esc>O<Tab>
     inoremap [<CR> [<CR>];<Esc>O<Tab>
+    autocmd FileType lua highlight luaComment ctermfg=Gray guifg=Gray
+    autocmd FileType nix highlight Comment ctermfg=Gray guifg=Gray
 
 
  # sudovim ~/.config/fish/config.fish
